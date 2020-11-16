@@ -19,8 +19,8 @@ public class MrMoneyMaker {
 	            			            @Override
 	            			            public void run() {
 	            			                danumber=-1;
-	            			                UwUI.say[1].setForeground(new Color(0,102,0));
-	            			                UwUI.say[1].setText("Noise cancellation is active");
+	            			               
+	            			                System.out.println("Noise cancellation is active");
 	            			            }
 	            			        }, 
 	            			      500 
@@ -30,8 +30,8 @@ public class MrMoneyMaker {
 	            			            @Override
 	            			            public void run() {
 	            			                danumber=-1;
-	            			                UwUI.say[1].setForeground(Color.RED);
-	            			                UwUI.say[1].setText("Noise cancellation is not active");
+	            			              
+	            			                System.out.println("Noise cancellation is not active");
 	            			            }
 	            			        }, 
 	            			      2000 
